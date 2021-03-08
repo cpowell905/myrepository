@@ -23,7 +23,7 @@ public class Assignment2 {
 			}	
 			public static void isPalindrome(int n[])
 			{
-		        for (int i=0; i<n.length; i++) { // Checks each element
+		        for (int i=0; i<n.length; i++) {
 		        	int temp = 0, reverse = 0, newI = n[i];
 		        	while(newI>0)	{
 		        		temp = newI%10;

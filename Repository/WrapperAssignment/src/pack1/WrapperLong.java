@@ -23,7 +23,7 @@ public static void main(String[] args)	{
 		System.out.println(System.identityHashCode(i2));
 		
 		
-		Long x=i2;   //auto boxing -> obj to primitive
+		Long x=i2;
 		System.out.println("x = "+x);
 		x=(long) 7;
 		i2=x; 
@@ -38,7 +38,7 @@ public static void main(String[] args)	{
 		System.out.println(d);
 		
 		
-		Long f=i2.longValue();  //double long etc
+		Long f=i2.longValue();
 		System.out.println("f = "+f);
 		
 		f=(long) 22.333f;
@@ -47,9 +47,9 @@ public static void main(String[] args)	{
 		
 		
 		Integer x1=19;
-		System.out.println(x1.compareTo(19)); //both are same so it will give 0
-		System.out.println(x1.compareTo(22)); //2nd value is greater then the first so it will give -ve value here
-		System.out.println(x1.compareTo(10)); //1st value is greater then the second so it will give +ve value here
+		System.out.println(x1.compareTo(19)); 
+		System.out.println(x1.compareTo(22));
+		System.out.println(x1.compareTo(10));
 					
 	}
 

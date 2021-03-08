@@ -11,9 +11,6 @@ public class Main {
 			Logic b = new Logic();
 			try {
 
-				if (!b.isDLNumberValid("1234567891")) {
-					System.out.println("DL Number validated.");
-				}
 			} catch (InvalidDLNumber e) {
 				System.out.println(e.getMessage());
 			}

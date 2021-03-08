@@ -33,7 +33,7 @@ public class Assignment4 {
 	    return maxValue; 
 	  }
 	 
-	  // Method for getting the minimum value
+
 	  public static int getMin(int[] inputArray){ 
 	    int minValue = inputArray[0]; 
 	    for(int i=1;i<inputArray.length;i++){ 

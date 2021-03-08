@@ -19,9 +19,9 @@ public static void main(String[] args) {
 		int insertion=25;
 		int pos=5;
 		for(int i=n;i>pos-1;i--) {
-			ar[i]=ar[i-1];   //updating
+			ar[i]=ar[i-1];
 		}
-		ar[pos-1]=insertion; //inserting 
+		ar[pos-1]=insertion;
 		n++;
 		
 		System.out.println("\n\nAfter Insertion");
