@@ -1,0 +1,19 @@
+1. RDBMS Relational Database Management System - Allows you to create, update, and administer a relational database.
+
+2.  A developer should learn SQL because it is the language most RDBMS use to access their databases.
+
+3. Normalization is a database design technique that reduces data rudundancy and eliminates undesirable characteristics. It divides larger tables into smaller tables and links them.
+
+4. First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF)
+
+5.  Atomicity: The entire transaction takes place at once or doesbt happen at all
+	Consistency: The database must be consistent before and after transaction
+	Isolation: Multiple Transaction occur independently without interference
+	Durability: The changes of a successful transaction occurs even if the system failure occurs.
+
+6.  Read uncommitted, Read Committed, Repeatable Read, Serializable, Snapshot
+
+7. PostgreSQL is a free and open source RDBMS. It supports these datatypes: Boolean, char, varchar, text, integer, floating-point number, Temporal types( date, time, timestamp, and interval),
+	UUID, Arrays, JSON, hstore, Network addresses and geometric data.
+
+8. Integrity Constraints are used to apply business rules for the database tables. Ex. Foreign Key, Not Null, Unique, Check.
